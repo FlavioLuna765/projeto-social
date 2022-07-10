@@ -1,10 +1,11 @@
 @charset "UTF-8";
 
-.{
+* {
     margin: 0px;
     padding: 0px;
     font-family: Arial, Helvetica, sans-serif;
-}
+ }    
+
 
 html, body {
     height: 100vh;
@@ -19,8 +20,9 @@ body {
 }
 
 main {
-    height: 100vh;
     position: relative;
+    height: 100vh;
+
 }
 
 section#telefone {
@@ -29,9 +31,16 @@ section#telefone {
     left: 50%;
     transform: translate(-50%, -50%);
 
-
     height: 627px;
     width: 311px;
     background-color: blue;
     background: url('../imagens/frame-iphone.png') no-repeat;
+}
+
+iframe#tela {
+    position: relative;
+    top: 80px;
+    left: 22px;
+    width: 277px;
+    height: 477px;
 }
